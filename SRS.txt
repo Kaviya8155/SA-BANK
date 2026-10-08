@@ -1,0 +1,130 @@
+# SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
+
+## 1. Project Title
+
+**SA Bank – Bank Management System**
+
+## 2. Introduction
+
+SA Bank is a Bank Management System developed to manage basic banking operations. It helps customers manage their accounts and perform banking transactions easily.
+
+## 3. Objective
+
+* To manage customer bank accounts efficiently.
+* To provide basic banking operations such as deposit, withdrawal, and balance enquiry.
+
+## 4. Scope
+
+The SA Bank system provides the following features:
+
+* Customer registration
+* User login
+* Account creation
+* Deposit money
+* Withdraw money
+* Balance enquiry
+* Transaction history
+* Logout
+
+## 5. Functional Requirements
+
+### 5.1 Login
+
+* The system should allow users to login using username and password.
+* Only authorized users should access the system.
+
+### 5.2 Account Creation
+
+* The system should allow new customers to create an account.
+* Customer details such as name, phone number, address, and account type should be stored.
+
+### 5.3 Deposit
+
+* The user should be able to deposit money into the account.
+* The account balance should be updated after the deposit.
+
+### 5.4 Withdrawal
+
+* The user should be able to withdraw money from the account.
+* The system should check whether sufficient balance is available.
+
+### 5.5 Balance Enquiry
+
+* The user should be able to check the current account balance.
+* The system should display the available balance correctly.
+
+### 5.6 Transaction History
+
+* The system should store deposit and withdrawal details.
+* The user should be able to view previous transactions.
+
+### 5.7 Logout
+
+* The user should be able to logout from the system.
+* The system should end the user's session securely.
+
+## 6. Non-Functional Requirements
+
+### Security
+
+* Customer information should be protected.
+* Login credentials should be kept secure.
+
+### Performance
+
+* The system should process transactions quickly.
+* The system should provide results without unnecessary delay.
+
+### Usability
+
+* The system should have a simple and user-friendly interface.
+* Users should easily understand the available options.
+
+### Reliability
+
+* The system should maintain accurate account balances.
+* Transactions should be recorded correctly.
+
+## 7. Hardware Requirements
+
+* Computer/Laptop
+* Minimum 4 GB RAM
+* Keyboard and Mouse
+* Internet Connection
+
+## 8. Software Requirements
+
+* Windows / Linux Operating System
+* Git
+* GitHub
+* Visual Studio Code
+* Web Browser
+* MySQL Database (if required)
+
+## 9. System Modules
+
+1. Login Module
+2. Customer Registration Module
+3. Account Management Module
+4. Deposit Module
+5. Withdrawal Module
+6. Balance Enquiry Module
+7. Transaction History Module
+8. Logout Module
+
+## 10. Users
+
+### Customer
+
+* Login to the system.
+* Deposit and withdraw money.
+* Check balance and transaction history.
+
+### Administrator
+
+* Manage customer accounts.
+* View and manage customer information.
+
+## 11. Conclusion
+
+The SA Bank Management System provides an efficient way to manage basic banking operations. It reduces manual work and helps customers manage their accounts and transactions easily.
